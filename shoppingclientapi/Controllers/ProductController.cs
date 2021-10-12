@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MongoDB.Driver;
 using shoppingclientapi.Data;
 using shoppingclientapi.Models;
 using System;
@@ -14,16 +15,18 @@ namespace shoppingclientapi.Controllers
     public class ProductController
     {
         private readonly ILogger<ProductController> _logger;
+        private readonly ProductContext _context;
 
-        public ProductController(ILogger<ProductController> logger)
+        public ProductController(ILogger<ProductController> logger, ProductContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         [HttpGet]
-        public IEnumerable<Product> GetProducts()
+        public async Task<IEnumerable<Product>> GetProducts()
         {
-            return ProductContext.Products;
+            return await _context.Products.Find(item => true).ToListAsync();
         }
     }
 }

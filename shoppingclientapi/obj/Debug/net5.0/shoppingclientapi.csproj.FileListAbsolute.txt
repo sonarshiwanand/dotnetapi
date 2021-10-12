@@ -27,3 +27,15 @@ D:\dotnet\api\shopping\shoppingclientapi\obj\Debug\net5.0\shoppingclientapi.dll
 D:\dotnet\api\shopping\shoppingclientapi\obj\Debug\net5.0\ref\shoppingclientapi.dll
 D:\dotnet\api\shopping\shoppingclientapi\obj\Debug\net5.0\shoppingclientapi.pdb
 D:\dotnet\api\shopping\shoppingclientapi\obj\Debug\net5.0\shoppingclientapi.genruntimeconfig.cache
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\DnsClient.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\SharpCompress.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\dotnet\api\shopping\shoppingclientapi\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
